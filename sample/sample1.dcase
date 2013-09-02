@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dcase:dcase xmlns:dcase="http://www.dependable-os.net/2010/06/dcase" id="sample1">
+<dcase:description/>
+<dcase:properties/>
+  <dcase:nodes>
+    <dcase:node type="Goal" id="goal1" name="G_1">
+      <dcase:description/>
+      <dcase:properties/>
+    </dcase:node>
+    <dcase:node type="Evidence" id="evidence1" name="E_1">
+      <dcase:description/>
+      <dcase:properties/>
+    </dcase:node>
+    <dcase:node type="Evidence" id="evidence2" name="E_2">
+      <dcase:description/>
+      <dcase:properties/>
+    </dcase:node>
+  </dcase:nodes>
+  <dcase:links>
+    <dcase:link type="SupportedBy" id="supportedby1" name="LINK_1" source="goal1" target="evidence1">
+      <dcase:description/>
+      <dcase:properties/>
+    </dcase:link>
+    <dcase:link type="SupportedBy" id="supportedby2" name="LINK_2" source="evidence2" target="evidence1">
+      <dcase:description/>
+      <dcase:properties/>
+    </dcase:link>
+  </dcase:links>
+</dcase:dcase>
